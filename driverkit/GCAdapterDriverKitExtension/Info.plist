@@ -386,7 +386,7 @@
 			<key>idProduct</key>
 			<integer>336</integer>
 			<key>idVendor</key>
-			<integer>4794</integer>
+			<integer>5168</integer>
 		</dict>
 		<key>lego-dimensions-portal-ps3</key>
 		<dict>
@@ -824,6 +824,29 @@
 			<integer>1024</integer>
 			<key>idVendor</key>
 			<integer>4794</integer>
+		</dict>
+		<key>tony-hawks-ride-wii</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>256</integer>
+			<key>idVendor</key>
+			<integer>5168</integer>
 		</dict>
 		<key>rb1-drums-wii</key>
 		<dict>
