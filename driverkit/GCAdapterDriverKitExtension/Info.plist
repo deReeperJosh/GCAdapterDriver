@@ -526,7 +526,7 @@
 			<key>idVendor</key>
 			<integer>3695</integer>
 		</dict>
-		<key>rlff-c283-c29b</key>
+		<key>rlff-c283-c29b-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -549,7 +549,7 @@
 			<key>idVendor</key>
 			<integer>1133</integer>
 		</dict>
-		<key>thrustmaster-rgt-ffb-pro</key>
+		<key>thrustmaster-rgt-ffb-pro-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -572,7 +572,7 @@
 			<key>idVendor</key>
 			<integer>1103</integer>
 		</dict>
-		<key>thrustmaster-f430</key>
+		<key>thrustmaster-f430-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -595,7 +595,7 @@
 			<key>idVendor</key>
 			<integer>1103</integer>
 		</dict>
-		<key>thrustmaster-ffb</key>
+		<key>thrustmaster-ffb-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -618,7 +618,7 @@
 			<key>idVendor</key>
 			<integer>1103</integer>
 		</dict>
-		<key>thrustmaster-trs</key>
+		<key>thrustmaster-trs-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -641,7 +641,7 @@
 			<key>idVendor</key>
 			<integer>1103</integer>
 		</dict>
-		<key>thrustmaster-t500-rs-gear-shift</key>
+		<key>thrustmaster-t500-rs-gear-shift-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -664,7 +664,7 @@
 			<key>idVendor</key>
 			<integer>1103</integer>
 		</dict>
-		<key>gt6-oculus</key>
+		<key>gt6-oculus-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -687,7 +687,7 @@
 			<key>idVendor</key>
 			<integer>10291</integer>
 		</dict>
-		<key>gt6-lgff-ca03-ca03</key>
+		<key>gt6-lgff-ca03-ca03-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -710,7 +710,7 @@
 			<key>idVendor</key>
 			<integer>1133</integer>
 		</dict>
-		<key>gcon3-gun-ps3</key>
+		<key>gcon3-gun-ps3-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
