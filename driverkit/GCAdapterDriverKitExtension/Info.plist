@@ -526,7 +526,7 @@
 			<key>idVendor</key>
 			<integer>3695</integer>
 		</dict>
-		<key>rlff-c283-c29b-ps3</key>
+		<key>lgff-c283-c29b-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -710,7 +710,7 @@
 			<key>idVendor</key>
 			<integer>1133</integer>
 		</dict>
-		<key>gcon3-gun-ps3-ps3</key>
+		<key>gcon3-gun-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
