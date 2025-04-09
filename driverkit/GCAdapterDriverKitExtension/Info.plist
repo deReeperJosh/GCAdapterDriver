@@ -1101,6 +1101,29 @@
 			<key>idVendor</key>
 			<integer>7085</integer>
 		</dict>
+		<key>santroller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>10370</integer>
+			<key>idVendor</key>
+			<integer>4617</integer>
+		</dict>
 	</dict>
 	<key>OSBundleUsageDescription</key>
 	<string>This extension enables interfacing with devices that report as Gamecube controllers.</string>
