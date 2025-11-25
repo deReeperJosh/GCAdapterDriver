@@ -14,7 +14,7 @@
 		702690B5267947E90016E64C /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702690B4267947E90016E64C /* DriverKit.framework */; };
 		702690B8267947E90016E64C /* GCAdapterDriverKitExtension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 702690B7267947E90016E64C /* GCAdapterDriverKitExtension.cpp */; };
 		702690BA267947E90016E64C /* GCAdapterDriverKitExtension.iig in Sources */ = {isa = PBXBuildFile; fileRef = 702690B9267947E90016E64C /* GCAdapterDriverKitExtension.iig */; };
-		702690C0267947E90016E64C /* com.secretkeys.gcadapterdriverkitext.dext in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 702690B2267947E90016E64C /* com.secretkeys.gcadapterdriverkitext.dext */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		702690C0267947E90016E64C /* com.deReeperJosh.gcadapterdriverkitext.dext in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 702690B2267947E90016E64C /* com.deReeperJosh.gcadapterdriverkitext.dext */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		702690C526794B780016E64C /* SystemExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702690C426794B780016E64C /* SystemExtensions.framework */; };
 		704D7F4726798AAD00C5C79E /* USBDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704D7F4626798AAD00C5C79E /* USBDriverKit.framework */; };
 /* End PBXBuildFile section */
@@ -36,7 +36,7 @@
 			dstPath = "$(SYSTEM_EXTENSIONS_FOLDER_PATH)";
 			dstSubfolderSpec = 16;
 			files = (
-				702690C0267947E90016E64C /* com.secretkeys.gcadapterdriverkitext.dext in Embed System Extensions */,
+				702690C0267947E90016E64C /* com.deReeperJosh.gcadapterdriverkitext.dext in Embed System Extensions */,
 			);
 			name = "Embed System Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 		70269098267944B80016E64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7026909A267944B80016E64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7026909B267944B80016E64C /* GCAdapterDriver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GCAdapterDriver.entitlements; sourceTree = "<group>"; };
-		702690B2267947E90016E64C /* com.secretkeys.gcadapterdriverkitext.dext */ = {isa = PBXFileReference; explicitFileType = "wrapper.driver-extension"; includeInIndex = 0; path = com.secretkeys.gcadapterdriverkitext.dext; sourceTree = BUILT_PRODUCTS_DIR; };
+		702690B2267947E90016E64C /* com.deReeperJosh.gcadapterdriverkitext.dext */ = {isa = PBXFileReference; explicitFileType = "wrapper.driver-extension"; includeInIndex = 0; path = com.deReeperJosh.gcadapterdriverkitext.dext; sourceTree = BUILT_PRODUCTS_DIR; };
 		702690B4267947E90016E64C /* DriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DriverKit.framework; path = System/Library/Frameworks/DriverKit.framework; sourceTree = SDKROOT; };
 		702690B7267947E90016E64C /* GCAdapterDriverKitExtension.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GCAdapterDriverKitExtension.cpp; sourceTree = "<group>"; };
 		702690B9267947E90016E64C /* GCAdapterDriverKitExtension.iig */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.iig; path = GCAdapterDriverKitExtension.iig; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				7026908E267944B60016E64C /* GCAdapterDriver.app */,
-				702690B2267947E90016E64C /* com.secretkeys.gcadapterdriverkitext.dext */,
+				702690B2267947E90016E64C /* com.deReeperJosh.gcadapterdriverkitext.dext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 			);
 			name = GCAdapterDriverKitExtension;
 			productName = GCAdapterDriverKitExtension;
-			productReference = 702690B2267947E90016E64C /* com.secretkeys.gcadapterdriverkitext.dext */;
+			productReference = 702690B2267947E90016E64C /* com.deReeperJosh.gcadapterdriverkitext.dext */;
 			productType = "com.apple.product-type.driver-extension";
 		};
 /* End PBXNativeTarget section */
@@ -402,9 +402,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GCAdapterDriver/GCAdapterDriver.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8JNDBG9U79;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 82F93352SB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = GCAdapterDriver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -413,8 +416,10 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.6;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secretkeys.GCAdapterDriverApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deReeperJosh.GCAdapterDriverApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = GCAdapterDriverApp;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -425,9 +430,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GCAdapterDriver/GCAdapterDriver.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8JNDBG9U79;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 82F93352SB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = GCAdapterDriver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -436,8 +444,10 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.6;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secretkeys.GCAdapterDriverApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deReeperJosh.GCAdapterDriverApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = GCAdapterDriverApp;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -447,9 +457,10 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = GCAdapterDriverKitExtension/GCAdapterDriverKitExtension.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8JNDBG9U79;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=driverkit*]" = 82F93352SB;
 				DRIVERKIT_DEPLOYMENT_TARGET = 20.0;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -458,9 +469,10 @@
 				);
 				INFOPLIST_FILE = GCAdapterDriverKitExtension/Info.plist;
 				MARKETING_VERSION = 1.6;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secretkeys.gcadapterdriverkitext;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deReeperJosh.gcadapterdriverkitext;
 				PRODUCT_NAME = "$(inherited)";
-				PROVISIONING_PROFILE_SPECIFIER = "GCAdapterDriverKitDev-06152021";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=driverkit*]" = GCAdapterDriverKitext;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = driverkit;
 				SKIP_INSTALL = YES;
@@ -472,9 +484,10 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = GCAdapterDriverKitExtension/GCAdapterDriverKitExtension.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8JNDBG9U79;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=driverkit*]" = 82F93352SB;
 				DRIVERKIT_DEPLOYMENT_TARGET = 20.0;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -483,9 +496,10 @@
 				);
 				INFOPLIST_FILE = GCAdapterDriverKitExtension/Info.plist;
 				MARKETING_VERSION = 1.6;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secretkeys.gcadapterdriverkitext;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deReeperJosh.gcadapterdriverkitext;
 				PRODUCT_NAME = "$(inherited)";
-				PROVISIONING_PROFILE_SPECIFIER = "GCAdapterDriverKitRelease-06152021";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=driverkit*]" = GCAdapterDriverKitext;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = driverkit;
 				SKIP_INSTALL = YES;

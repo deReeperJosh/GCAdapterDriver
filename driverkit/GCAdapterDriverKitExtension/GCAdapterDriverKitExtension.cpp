@@ -14,6 +14,8 @@
 
 #include "GCAdapterDriverKitExtension.h"
 
+#define Log(fmt, ...) os_log(OS_LOG_DEFAULT, "GCAdapterDriver - " fmt "\n", ##__VA_ARGS__)
+
 #define __Require(assertion, exceptionLabel)                    \
 do {                                                            \
     if ( __builtin_expect(!(assertion), 0) ) {                  \
@@ -35,74 +37,44 @@ kern_return_t
 IMPL(GCAdapterDriverKitExtension, Start)
 {
     kern_return_t ret;
-/*    uint8_t desired_interval = 1;
-    
-    IOUSBHostInterface *interface = NULL;
-    const IOUSBConfigurationDescriptor *configDescriptor;
-    const IOUSBInterfaceDescriptor *interfaceDescriptor;
-    const IOUSBEndpointDescriptor *endpointDescriptor = NULL;
-*/
-    os_log(OS_LOG_DEFAULT, "GCAdapterDriver Starting");
+    Log("Starting");
     ret = Start(provider, SUPERDISPATCH);
-//    __Require(kIOReturnSuccess == ret, Exit);
-    
-/*
-    interface = OSDynamicCast(IOUSBHostInterface, provider);
-    __Require_Action(NULL != interface, Exit, ret = kIOReturnNoDevice);
-    
-//    ret = interface->Open(this, 0, NULL);
-//    __Require_Action(kIOReturnSuccess == ret, Exit, ret = kIOReturnNotOpen);
-    
-    configDescriptor = interface->CopyConfigurationDescriptor();
-    interfaceDescriptor = interface->GetInterfaceDescriptor(configDescriptor);
 
-    while((
-        endpointDescriptor = IOUSBGetNextEndpointDescriptor(
-            configDescriptor,
-            interfaceDescriptor,
-            (IOUSBDescriptorHeader*)endpointDescriptor
-        )
-    ) != NULL) {
-        os_log(OS_LOG_DEFAULT, "Walking endpoint descriptor... %i", endpointDescriptor->bEndpointAddress);
-
-        if(endpointDescriptor->bEndpointAddress == 0x81) {
-            os_log(OS_LOG_DEFAULT, "bEndpointAddress 0x81");
-        } else if(endpointDescriptor->bEndpointAddress == 0x82) {
-            os_log(OS_LOG_DEFAULT, "bEndpointAddress 0x82");
-        }
-        
-        if(endpointDescriptor->bEndpointAddress == 0x81 || endpointDescriptor->bEndpointAddress == 0x82) {
-            IOUSBHostPipe *pipe = NULL;
-            interface->CopyPipe(endpointDescriptor->bEndpointAddress, &pipe);
-            
-            if(pipe) {
-                os_log(OS_LOG_DEFAULT, "Acquired pipe, will attempt to update bInterval");
-                
-                // The problem area - GetDescriptors returns fine but descriptors remains NULL.
-                IOUSBStandardEndpointDescriptors *descriptors = NULL;
-                kern_return_t opt = pipe->GetDescriptors(descriptors, kIOUSBGetEndpointDescriptorOriginal);
-                os_log(OS_LOG_DEFAULT, "GetDescriptors ret: %i", opt);
-
-                if(descriptors) {
-                    descriptors->descriptor.bInterval = desired_interval;
-                    IOReturn result = pipe->AdjustPipe(descriptors);
-                    os_log(OS_LOG_DEFAULT, "Status: %d", result);
-                } else {
-                    os_log(OS_LOG_DEFAULT, "No descriptors found?!");
-                }
-            
-                pipe->release();
-            } else {
-                os_log(OS_LOG_DEFAULT, "Unable to acquire pipe to modify interval!");
-            }
-        }
+    if (ret != kIOReturnSuccess) {
+        Stop(provider, SUPERDISPATCH);
+        Log("Failed to start");
+        return ret;
     }
 
-Exit:
-//    if(interface != NULL)
-//        interface->Close(this, 0);
- */
 
+    // Perform startup tasks...
+    IOUSBHostInterface *interface = OSDynamicCast(IOUSBHostInterface, provider);
+    IOUSBHostDevice *device;
+    ret = interface->CopyDevice(&device);
+    if (ret != kIOReturnSuccess) {
+        Stop(provider, SUPERDISPATCH);
+        Log("Failed to copy device");
+        return ret;
+    }
+    
+    const IOUSBDeviceDescriptor *deviceDesc;
+    deviceDesc = device->CopyDeviceDescriptor();
+    if (deviceDesc == NULL) {
+        device->release();
+        Stop(provider, SUPERDISPATCH);
+        Log("Failed to copy device descriptor");
+        return kIOReturnError;
+    }
+
+    if (deviceDesc->idVendor == 0x1430 && deviceDesc->idProduct == 0x0150) {
+        Log("Found Skylander Portal for use");
+    }
+    
+    device->release();
+
+    // Register the service with the system.
+    RegisterService();
+    
     return ret;
 }
 
@@ -111,7 +83,7 @@ IMPL(GCAdapterDriverKitExtension, Stop)
 {
     kern_return_t ret;
     ret = Stop(provider, SUPERDISPATCH);
-    os_log(OS_LOG_DEFAULT, "GCAdapterDriver shutting down");
+    Log("GCAdapterDriver shutting down");
     return ret;
 }
 

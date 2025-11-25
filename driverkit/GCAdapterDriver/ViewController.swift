@@ -8,7 +8,7 @@
 import Cocoa
 import SystemExtensions
 
-var ext_identifier = "com.secretkeys.gcadapterdriverkitext"
+var ext_identifier = "com.deReeperJosh.gcadapterdriverkitext"
 
 enum ActivatingStatus {
     case activating
@@ -47,7 +47,7 @@ class ViewController: NSViewController, OSSystemExtensionRequestDelegate {
         logoView?.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(logoView!)
 
-        titleLabel = NSTextField(labelWithString: "GCAdapterDriver v1.6")
+        titleLabel = NSTextField(labelWithString: "GCAdapterDriver Testing")
         titleLabel?.translatesAutoresizingMaskIntoConstraints = false
         titleLabel?.font = NSFont.boldSystemFont(ofSize: 14.0)
         view.addSubview(titleLabel!)
