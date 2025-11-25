@@ -8,7 +8,7 @@
 import Cocoa
 import SystemExtensions
 
-var ext_identifier = "com.secretkeys.gcadapterdriverkitext"
+var ext_identifier = "com.deReeperJosh.gcadapterdriverkitext"
 
 enum ActivatingStatus {
     case activating

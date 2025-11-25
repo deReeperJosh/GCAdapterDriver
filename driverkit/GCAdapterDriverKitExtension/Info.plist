@@ -20,7 +20,7 @@
 	<string>1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>wup-028</key>
+		<key>densha-de-go-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -39,11 +39,11 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>823</integer>
+			<integer>4</integer>
 			<key>idVendor</key>
-			<integer>1406</integer>
+			<integer>2788</integer>
 		</dict>
-		<key>rb-drums-ps3</key>
+		<key>disney-infinity-portal-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -62,7 +62,99 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>528</integer>
+			<integer>297</integer>
+			<key>idVendor</key>
+			<integer>3695</integer>
+		</dict>
+		<key>djh-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>320</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>ea-active-2-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>44071</integer>
+			<key>idVendor</key>
+			<integer>8612</integer>
+		</dict>
+		<key>gcon3-gun-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>2048</integer>
+			<key>idVendor</key>
+			<integer>2970</integer>
+		</dict>
+		<key>gh-drums-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>288</integer>
 			<key>idVendor</key>
 			<integer>4794</integer>
 		</dict>
@@ -89,29 +181,6 @@
 			<key>idVendor</key>
 			<integer>4794</integer>
 		</dict>
-		<key>gh-drums-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>288</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
 		<key>ghl-guitar-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -135,7 +204,7 @@
 			<key>idVendor</key>
 			<integer>4794</integer>
 		</dict>
-		<key>rb-guitar-ps3</key>
+		<key>gt6-lgff-ca03-ca03-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -154,11 +223,11 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>512</integer>
+			<integer>51715</integer>
 			<key>idVendor</key>
-			<integer>4794</integer>
+			<integer>1133</integer>
 		</dict>
-		<key>rb-mustang-ps3</key>
+		<key>gt6-oculus-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -177,262 +246,9 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>9264</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>rb-squire-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
 			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>9520</integer>
 			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>rb-mustang-ps3-pro-adapter</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>9272</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>rb-squire-ps3-pro-adapter</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>9528</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>rb-drums-ps3-pro-adapter</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>536</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>rb-keys-ps3-pro-adapter</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>9016</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>rb-keys-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>9008</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>djh-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>320</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>rocksmith-guitar-adapter-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>255</integer>
-			<key>idVendor</key>
-			<integer>4794</integer>
-		</dict>
-		<key>skylanders-portal-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>336</integer>
-			<key>idVendor</key>
-			<integer>5168</integer>
-		</dict>
-		<key>lego-dimensions-portal-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>577</integer>
-			<key>idVendor</key>
-			<integer>3695</integer>
-		</dict>
-		<key>disney-infinity-portal-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>297</integer>
-			<key>idVendor</key>
-			<integer>3695</integer>
+			<integer>10291</integer>
 		</dict>
 		<key>kamen-rider-summonride-portal-ps3</key>
 		<dict>
@@ -457,7 +273,7 @@
 			<key>idVendor</key>
 			<integer>3695</integer>
 		</dict>
-		<key>topshot-elite-ps3</key>
+		<key>lego-dimensions-portal-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -476,53 +292,7 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>1184</integer>
-			<key>idVendor</key>
-			<integer>3695</integer>
-		</dict>
-		<key>topshot-fearmaster-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>1185</integer>
-			<key>idVendor</key>
-			<integer>3695</integer>
-		</dict>
-		<key>rapala-fishing-rod-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>1200</integer>
+			<integer>577</integer>
 			<key>idVendor</key>
 			<integer>3695</integer>
 		</dict>
@@ -549,7 +319,7 @@
 			<key>idVendor</key>
 			<integer>1133</integer>
 		</dict>
-		<key>thrustmaster-rgt-ffb-pro-ps3</key>
+		<key>rapala-fishing-rod-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -568,9 +338,538 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>46675</integer>
+			<integer>1200</integer>
 			<key>idVendor</key>
-			<integer>1103</integer>
+			<integer>3695</integer>
+		</dict>
+		<key>rb-drums-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>528</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-drums-ps3-pro-adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>536</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-drums-wii-pro-adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>12600</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb-guitar-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>512</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-keys-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>9008</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-keys-ps3-pro-adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>9016</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-keys-wii</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>13104</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb-keys-wii-pro-adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>13112</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb-mustang-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>9264</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-mustang-ps3-pro-adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>9272</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-mustang-wii</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>13360</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb-mustang-wii-pro-adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>13624</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb-squire-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>9520</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-squire-ps3-pro-adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>9528</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>rb-squire-wii</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>13616</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb-squire-wii-pro-adapter</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>13368</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb1-drums-wii</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>5</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb1-guitar-wii</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb2-drums-wii</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>12560</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rb2-guitar-wii</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>12304</integer>
+			<key>idVendor</key>
+			<integer>7085</integer>
+		</dict>
+		<key>rocksmith-guitar-adapter-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>255</integer>
+			<key>idVendor</key>
+			<integer>4794</integer>
+		</dict>
+		<key>santroller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>10370</integer>
+			<key>idVendor</key>
+			<integer>4617</integer>
+		</dict>
+		<key>skylanders-portal-ps3</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleIdentifierKernel</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOUserService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostInterface</string>
+			<key>IOUserClass</key>
+			<string>GCAdapterDriverKitExtension</string>
+			<key>IOUserServerName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>336</integer>
+			<key>idVendor</key>
+			<integer>5168</integer>
 		</dict>
 		<key>thrustmaster-f430-ps3</key>
 		<dict>
@@ -618,7 +917,7 @@
 			<key>idVendor</key>
 			<integer>1103</integer>
 		</dict>
-		<key>thrustmaster-trs-ps3</key>
+		<key>thrustmaster-rgt-ffb-pro-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -637,7 +936,7 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>46686</integer>
+			<integer>46675</integer>
 			<key>idVendor</key>
 			<integer>1103</integer>
 		</dict>
@@ -664,7 +963,7 @@
 			<key>idVendor</key>
 			<integer>1103</integer>
 		</dict>
-		<key>gt6-oculus-ps3</key>
+		<key>thrustmaster-trs-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -683,124 +982,9 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>1</integer>
+			<integer>46686</integer>
 			<key>idVendor</key>
-			<integer>10291</integer>
-		</dict>
-		<key>gt6-lgff-ca03-ca03-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>51715</integer>
-			<key>idVendor</key>
-			<integer>1133</integer>
-		</dict>
-		<key>gcon3-gun-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>2048</integer>
-			<key>idVendor</key>
-			<integer>2970</integer>
-		</dict>
-		<key>udraw-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>51991</integer>
-			<key>idVendor</key>
-			<integer>8406</integer>
-		</dict>
-		<key>densha-de-go-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>4</integer>
-			<key>idVendor</key>
-			<integer>2788</integer>
-		</dict>
-		<key>ea-active-2-ps3</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>44071</integer>
-			<key>idVendor</key>
-			<integer>8612</integer>
+			<integer>1103</integer>
 		</dict>
 		<key>tony-hawks-ride-ps3</key>
 		<dict>
@@ -848,7 +1032,7 @@
 			<key>idVendor</key>
 			<integer>5168</integer>
 		</dict>
-		<key>rb1-drums-wii</key>
+		<key>topshot-elite-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -867,11 +1051,11 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>5</integer>
+			<integer>1184</integer>
 			<key>idVendor</key>
-			<integer>7085</integer>
+			<integer>3695</integer>
 		</dict>
-		<key>rb2-drums-wii</key>
+		<key>topshot-fearmaster-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -890,11 +1074,11 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>12560</integer>
+			<integer>1185</integer>
 			<key>idVendor</key>
-			<integer>7085</integer>
+			<integer>3695</integer>
 		</dict>
-		<key>rb1-guitar-wii</key>
+		<key>udraw-ps3</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -913,11 +1097,11 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>4</integer>
+			<integer>51991</integer>
 			<key>idVendor</key>
-			<integer>7085</integer>
+			<integer>8406</integer>
 		</dict>
-		<key>rb2-guitar-wii</key>
+		<key>wup-028</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -936,193 +1120,9 @@
 			<key>bInterfaceNumber</key>
 			<integer>0</integer>
 			<key>idProduct</key>
-			<integer>12304</integer>
+			<integer>823</integer>
 			<key>idVendor</key>
-			<integer>7085</integer>
-		</dict>
-		<key>rb-squire-wii</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>13616</integer>
-			<key>idVendor</key>
-			<integer>7085</integer>
-		</dict>
-		<key>rb-mustang-wii</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>13360</integer>
-			<key>idVendor</key>
-			<integer>7085</integer>
-		</dict>
-		<key>rb-squire-wii-pro-adapter</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>13368</integer>
-			<key>idVendor</key>
-			<integer>7085</integer>
-		</dict>
-		<key>rb-mustang-wii-pro-adapter</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>13624</integer>
-			<key>idVendor</key>
-			<integer>7085</integer>
-		</dict>
-		<key>rb-drums-wii-pro-adapter</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>12600</integer>
-			<key>idVendor</key>
-			<integer>7085</integer>
-		</dict>
-		<key>rb-keys-wii-pro-adapter</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>13112</integer>
-			<key>idVendor</key>
-			<integer>7085</integer>
-		</dict>
-		<key>rb-keys-wii</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>13104</integer>
-			<key>idVendor</key>
-			<integer>7085</integer>
-		</dict>
-		<key>santroller</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
-			<key>IOClass</key>
-			<string>IOUserService</string>
-			<key>IOProviderClass</key>
-			<string>IOUSBHostInterface</string>
-			<key>IOUserClass</key>
-			<string>GCAdapterDriverKitExtension</string>
-			<key>IOUserServerName</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-			<key>bConfigurationValue</key>
-			<integer>1</integer>
-			<key>bInterfaceNumber</key>
-			<integer>0</integer>
-			<key>idProduct</key>
-			<integer>10370</integer>
-			<key>idVendor</key>
-			<integer>4617</integer>
+			<integer>1406</integer>
 		</dict>
 	</dict>
 	<key>OSBundleUsageDescription</key>
